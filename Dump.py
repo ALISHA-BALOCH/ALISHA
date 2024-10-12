@@ -11,4 +11,4 @@ if bit == '64bit':
    import Dump
 elif bit == '32bit':
    print('\033[1;97m [✓] Found 32 Bit Device')
-   exit('\033[1;91m [×] Sorry Brother 32 Bit Device Not Supported')
+   import Dump32
